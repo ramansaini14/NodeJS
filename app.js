@@ -78,8 +78,8 @@
 //     })
 
 // })
-const { writeFile } = require("node:fs")
-const fs = require("node:fs/promises")
+// const { writeFile } = require("node:fs")
+// const fs = require("node:fs/promises")
 
 // Resolve Using Promises CALLBACK HELL Solution 👇
 // ASYNC AWAIT --- Promices
@@ -119,36 +119,31 @@ const fs = require("node:fs/promises")
 
 // SERVER  -- http://127.0.0.1:5509 req -- res
 
-const server = require("node:http")
 
 // server.createServer((req, resp) => {
-//     resp.writeHead(200, { "Content-Type": "text/plain" });
-//     resp.end("hello Arsh ")
-// }).listen(7789);
+    //     resp.writeHead(200, { "Content-Type": "text/plain" });
+    //     resp.end("hello Arsh ")
+    // }).listen(7789);
+// const http = require("node:http")
+// let port = 3670;
+// const serve = http.createServer((req, resp) => {
+//     if(req.url === "/abc"){
+//         resp.end("hello abc response")
+//     }
+//     resp.end("hello World 2")
+// })
+// serve.listen(port, () => {
+//     console.log(`server listening to port ${port}`);
+// });
 
-server.createServer((req, resp) => {
-    // let a = req.url('')
-    if(req.url === '/doojapage'){
-        resp.end("page Number 2")
-    }
-    if(req.url === '/doojapage'){
-        resp.end("page Number 2")
-    }
-    if(req.url === '/doojapage'){
-        resp.end("page Number 2")
-    }
-    if(req.url === '/doojapage'){
-        resp.end("page Number 2")
-    }
-    if(req.url === '/doojapage'){
-        resp.end("page Number 2")
-    }
-    if(req.url === '/doojapage'){
-        resp.end("page Number 2")
-    }
-    resp.writeHead(200, { "Content-Type": "text/plain" });
-    resp.end("hello World 2")
-}).listen(7789);
+// /Home
+// /about
+// /blog/1
+// /blog/2
+// /blog/3
+
+// EXPRESS 
+
 
 // MONGODB
 // COCKROACHDB
