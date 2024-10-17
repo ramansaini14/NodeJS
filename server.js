@@ -32,3 +32,8 @@ app.listen(port, () => {
 })
 
 // Create a server Jismee apko ek simple endpoint "/" that will reeturn a table while inside home, about , blog endpoints it will return a plain text.
+
+
+// int -- -98765 to 98765 
+
+// uint 0 to 98765
